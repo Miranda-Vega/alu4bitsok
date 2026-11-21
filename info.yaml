@@ -32,25 +32,25 @@ pinout:
   ui[6]: "A6"
   ui[7]: "A7"
 
-  # Outputs
-  uo[0]: "SUM0"
-  uo[1]: "SUM1"
-  uo[2]: "SUM2"
-  uo[3]: "SUM3"
-  uo[4]: "SUM4"
-  uo[5]: "SUM5"
-  uo[6]: "SUM6"
-  uo[7]: "SUM7"
-
-  # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  # Bidirectional inputs used as B
+uio[0]: "B0"
+uio[1]: "B1"
+uio[2]: "B2"
+uio[3]: "B3"
+uio[4]: "B4"
+uio[5]: "B5"
+uio[6]: "B6"
+uio[7]: "B7"
+ 
+# Outputs
+uo[0]: "SUM0"
+uo[1]: "SUM1"
+uo[2]: "SUM2"
+uo[3]: "SUM3"
+uo[4]: "SUM4"
+uo[5]: "SUM5"
+uo[6]: "SUM6"
+uo[7]: "SUM7"
 
 # Do not change!
 yaml_version: 6
